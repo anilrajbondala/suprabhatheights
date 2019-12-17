@@ -466,7 +466,7 @@ li{
     padding-top: 8px;
     padding-bottom: 7px;
     padding-left: 0px;
-    padding-right: 40px;
+    padding-right: 0px;
     display: none;
 }
 .accordion-box .accordion .accord-content.collapsed {
