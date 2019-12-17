@@ -446,7 +446,7 @@
 =============================================
 ***/ 
 .company-overview-area {
-    padding: 105px 0 86px;
+    /* padding: 105px 0 86px; */
 }    
 .intro-box {
     position: relative;
@@ -1126,7 +1126,7 @@ li .single-footer-contact-info .text p br{
 =============================================
 ***/ 
 .company-overview-area {
-    padding: 105px 0 86px;
+    /* padding: 105px 0 86px; */
 }     
 .intro-box {
     position: relative;
@@ -2169,7 +2169,7 @@ li .single-footer-contact-info .inner {
 =============================================
 ***/ 
 .company-overview-area {
-    padding: 105px 0 86px;
+    /* padding: 105px 0 86px; */
 }     
 .intro-box {
     position: relative;
@@ -2806,7 +2806,7 @@ li .single-footer-contact-info .inner {
     padding-top: 17px;
     padding-bottom: 0px;
     z-index: 5;
-    width: 100%;
+    /* width: 100%; */
 }
 .main-menu .navigation li {
     margin-left: 0;
