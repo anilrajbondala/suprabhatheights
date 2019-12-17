@@ -444,7 +444,7 @@ li{
     top: 22px;
     right: 40px;
     color: #b4b4b4;
-    content: "\f10d";
+    content: "\f054";
     font-size: 25px;
     line-height: 25px;
     font-weight: 300;
@@ -6989,7 +6989,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
 .company-overview-area{
     position: relative;
     display: block;
-    padding: 55px 0 116px;
+    padding: 20px 0;
     z-index: 1;
 }
 .company-overview-area:before{
@@ -7007,7 +7007,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    margin-bottom: 70px;
+    /* margin-bottom: 70px; */
 }
 .intro-box .sec-title{
     position: relative;
@@ -7351,7 +7351,7 @@ li .single-footer-contact-info .text p span{
     position: relative;
     display: block;
     background: #f6f6f6;
-    padding: 60px 60px 40px;
+    padding: 40px 30px 40px;
 }
 
 .documents{
@@ -13045,6 +13045,11 @@ li .single-footer-contact-info .text p span{
     padding: 20px;
     border-right: 2px solid red;
 }
+@media only screen and (max-width: 768px) {    
+    .mission{
+        border-right: none !important;
+    }
+}
 .mission .intro-box,
 .vision .intro-box{
  margin-bottom: 10px !important;   
@@ -13133,9 +13138,18 @@ video{
     .hide-md{
         display: none !important;
     }
+    .main-title{
+      line-height: 40px !important;
+    }
 }
 @media (max-width: 1024px) {
     .why-choose-title{
         max-width: 100% !important;
     }
+}
+
+.main-title{
+    font-size: 32px;
+    color: white;
+    line-height: 70px;
 }
