@@ -444,14 +444,14 @@ li{
     top: 22px;
     right: 40px;
     color: #b4b4b4;
-    content: "\f054";
+    content: "\f106";
     font-size: 25px;
     line-height: 25px;
     font-weight: 300;
     transition: all 500ms ease 0s;
 }
 .accordion-box .accordion .accord-btn.active{
-    background: #27282c;
+    background: #dba703;
     transition: all 500ms ease;
 }
 .accordion-box .accordion .accord-btn.active h4 {
@@ -463,7 +463,7 @@ li{
 .accordion-box .accordion .accord-content {
     position: relative;
     display: block;
-    padding-top: 29px;
+    padding-top: 8px;
     padding-bottom: 7px;
     padding-left: 0px;
     padding-right: 40px;
@@ -13152,4 +13152,11 @@ video{
     font-size: 32px;
     color: white;
     line-height: 70px;
+}
+
+.pT-15{
+    padding-top: 15px;
+}
+.padding-0-20{
+    padding: 0 20px;;
 }
