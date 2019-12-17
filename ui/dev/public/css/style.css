@@ -4344,8 +4344,8 @@ select:focus {
 }
 .why-choose-title .sec-title {
     margin: 0;
-    padding-top: 50px;
-    padding-left: 40px;
+    padding-top: 18px;
+    padding-left: 30px;
     padding-bottom: 28px;
 }
 .why-choose-title .sec-title .icon {
@@ -4353,7 +4353,7 @@ select:focus {
     display: block;
     margin-bottom: 32px;
     background: white;
-    margin-right: 40px;
+    margin-right: 30px;
     text-align: center;
 }
 .why-choose-title .sec-title .title {
@@ -5262,7 +5262,7 @@ box-shadow: 0px -4px 10px 3px #e8e8e8;
     left: -500px;
     bottom: 0;
     right: 0;
-    background: url(../images/pattern/instagram-title-bg.png);
+    /* background: url(../images/pattern/instagram-title-bg.png); */
     z-index: -1;
     background-repeat: no-repeat;
 }
@@ -8058,7 +8058,7 @@ li .single-footer-contact-info .text p span{
 }
 .single-service-sidebar .service-pages li a .title .overlay-title h3 {
     color: #dba703;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 63px;
     transform: scale(0.5);
     opacity: 0;
@@ -13118,9 +13118,12 @@ video{
 .sandy .nGY2GThumbnailSub :hover .nGY2TnImg{
     transform: scale(1.2) rotate(0deg) !important;
 }
+.dstar{
+    color: #828282 !important;
+}
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1460px) {
     .hide-lg{
         display: none !important;
     }
