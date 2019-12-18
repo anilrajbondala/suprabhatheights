@@ -5,9 +5,12 @@
           <img class="h-20" src="statics/second.png" />
           <img class="h-20 ml-2 hide-sm" src="statics/main-logo.png" />
         </div>
-        <div class="flex">
+        <div class="flex text-xl">
           <div class="mr-4">
             <router-link to='/'>HOME</router-link>
+          </div>
+          <div class="mr-4">
+            <router-link to='location'>LOCATION</router-link>
           </div>
           <div class="mr-4">
             <router-link to="gallery">GALLERY</router-link>

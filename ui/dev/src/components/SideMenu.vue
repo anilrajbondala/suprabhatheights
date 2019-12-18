@@ -2,7 +2,7 @@
   <div>
     <q-header elevated class="bg-black">
       <q-toolbar>
-        <q-btn flat @click="drawerLeft = !drawerLeft" round dense icon="menu" />
+        <q-btn flat @click="drawerLeft = !drawerLeft" round dense icon="ti-align-left" />
         <q-toolbar-title><img src="statics/ds.jpg" class="ds_small-logo"/>Dhruva Sai Infra Structures</q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -14,6 +14,11 @@
             <q-item clickable v-ripple>
               <q-item-section>
                 <router-link to="/">HOME</router-link>
+              </q-item-section>
+            </q-item>
+            <q-item clickable v-ripple>
+              <q-item-section>
+                <router-link to="location">LOCATION</router-link>
               </q-item-section>
             </q-item>
             <q-item clickable v-ripple>

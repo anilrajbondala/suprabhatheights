@@ -1,6 +1,6 @@
 <template>
-    <div>
-<q-carousel
+  <div>
+    <q-carousel
       swipeable
       animated
       autoplay
@@ -13,29 +13,29 @@
       <q-carousel-slide :name="2" img-src="statics/s2.jpg" />
 
       <template v-slot:control>
-        <q-carousel-control
-          position="bottom-right"
-          :offset="[18, 18]"
-        >
+        <q-carousel-control position="bottom-right" :offset="[18, 18]">
           <q-btn
-            push round dense color="white" text-color="primary"
+            push
+            round
+            dense
+            color="white"
+            text-color="primary"
             :icon="fullscreen ? 'fullscreen_exit' : 'fullscreen'"
             @click="fullscreen = !fullscreen"
           />
         </q-carousel-control>
       </template>
     </q-carousel>
-
-        </div>
+  </div>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       slide: 1,
       fullscreen: false
-    }
+    };
   }
-}
+};
 </script>
