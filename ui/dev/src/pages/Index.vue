@@ -62,10 +62,10 @@
         >DEVELOPMENT AROUND YADADRI - BHUVANAGIRI</div>
       </div>
       <div class="row bg-gray-300">
-        <div class="col-12 col-md-6 p-4" v-for="item in yghighlights" v-bind:key="item">
-          <div class="text-lg">
-            <img src="statics/road.jpg" class="ygImg" />
-            {{item}}
+        <div class="col-12 col-md-6 p-4" v-for="item in yghighlights" v-bind:key="item.name">
+          <div class="text-lg flex">
+            <img :src="item.img" class="ygImg" />
+            {{item.name}}
           </div>
         </div>
       </div>
@@ -98,14 +98,38 @@ export default {
         "YTDA Ring Road Which Is Closer To Venture"
       ],
       yghighlights: [
-        "YTDA Ring Road which is closer to Suprabhat Heights",
-        "All Connecting Roads to Bhoingir to be made 6-Lane",
-        "Proposed MMTS Station at Bhoingir",
-        "9 Surroundings Hills to be developed as NAVA Narsimha Temples",
-        "Vedic & Sculpture Schools",
-        "250-Acre Siddhi Kshetra Dham",
-        "Proposed 200-Acre Garden at Basvapur Reservation",
-        "1400-Acre Temple Township on Mallapur Road for Cottages, Kalyana Mandapam, Shopping Complex, Restaurents & Many more."
+         {
+          name: "YTDA Ring Road which is closer to Suprabhat Heights",
+          img: "statics/road.jpg"
+        },
+         {
+          name: "All Connecting Roads to Bhoingir to be made 6-Lane",
+          img: "statics/allroad.jpg"
+        },
+         {
+          name: "Proposed MMTS Station at Bhoingir",
+          img: "statics/mmts.jpg"
+        },
+         {
+          name: "9 Surroundings Hills to be developed as NAVA Narsimha Temples",
+          img: "statics/hill.jpg"
+        },
+         {
+          name: "Vedic & Sculpture Schools",
+          img: "statics/school.jpg"
+        },
+         {
+          name: "250-Acre Siddhi Kshetra Dham",
+          img: "statics/dham.jpg"
+        },
+         {
+          name: "Proposed 200-Acre Garden at Basvapur Reservation",
+          img: "statics/garden.jpg"
+        },
+         {
+          name: "1400-Acre Temple Township on Mallapur Road for Cottages, Kalyana Mandapam, Shopping Complex, Restaurents & Many more.",
+          img: "statics/home.jpg"
+        }
       ],
       ame: [
         {
