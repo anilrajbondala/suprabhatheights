@@ -1,0 +1,41 @@
+<template>
+    <div>
+<q-carousel
+      swipeable
+      animated
+      autoplay
+      arrows
+      v-model="slide"
+      :fullscreen.sync="fullscreen"
+      infinite
+    >
+      <q-carousel-slide :name="1" img-src="statics/s1.jpg" />
+      <q-carousel-slide :name="2" img-src="statics/s2.jpg" />
+
+      <template v-slot:control>
+        <q-carousel-control
+          position="bottom-right"
+          :offset="[18, 18]"
+        >
+          <q-btn
+            push round dense color="white" text-color="primary"
+            :icon="fullscreen ? 'fullscreen_exit' : 'fullscreen'"
+            @click="fullscreen = !fullscreen"
+          />
+        </q-carousel-control>
+      </template>
+    </q-carousel>
+
+        </div>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      slide: 1,
+      fullscreen: false
+    }
+  }
+}
+</script>

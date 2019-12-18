@@ -1,1 +1,18 @@
 /* app global css */
+@media (max-width: 640px) { 
+    .hide-sm{
+        display: none !important;
+    }
+    .xs-100{
+        width: 100%;
+    }
+    .xs-100 img{
+        margin: 0 auto;
+    }
+ }
+
+ .ds_small-logo{
+    height: 40px;
+    display: inline-block;
+    padding-right: 5px;
+ }
