@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-full h-10 bg-black"></div>
+    <div class="w-full h-10 bg-black page">Gallery</div>
     <div class="gallery row">
       <a class="col-md-3 p-4" href="statics/gallery/1.JPG" data-caption="Image caption">
         <img src="statics/gallery/1.JPG" alt="First image" />
