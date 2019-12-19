@@ -21,7 +21,7 @@
     <div class="row my-1">
       <div
         class="col-12 col-md-6"
-        style="background-image: url('statics/s1.jpg');background-position: center;"
+        style="background-image: url('statics/s1.jpg'); background-size:cover;"
       >
         <!-- <img src="statics/s1.jpg" /> -->
       </div>

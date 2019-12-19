@@ -4,28 +4,28 @@
     <section class="pt-8 px-4">
       <div class="flex flex-wrap -mx-4">
         <div class="md:w-1/3 px-4 mb-8">
-          <img class="rounded shadow-md" src="statics/documents/broucher.jpg" alt />
-          <div class="w-full py-4 px-6"> <button class="inline-block w-full py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow">Broucher  <q-icon name="ti-download" /></button></div>
+          <img class="rounded shadow-md m-auto" src="statics/documents/broucher.jpg" alt />
+          <div class="w-full py-4 px-6"> <button class="inline-block w-64 m-auto py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow">Broucher  <q-icon name="ti-download" /></button></div>
         </div>
         <div class="md:w-1/3 px-4 mb-8">
-          <img class="rounded shadow-md" src="statics/documents/leaflet.jpg" alt />
-          <div class="w-full py-4 px-6"> <button class="inline-block w-full py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow">Leaflet  <q-icon name="ti-download" /></button></div>
+          <img class="rounded shadow-md m-auto" src="statics/documents/leaflet.jpg" alt />
+          <div class="w-full py-4 px-6"> <button class="inline-block w-64 m-auto py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow">Leaflet  <q-icon name="ti-download" /></button></div>
         </div>
         <div class="md:w-1/3 px-4 mb-8">
-          <img class="rounded shadow-md" src="statics/documents/reracertificate.jpg" alt />
-          <div class="w-full py-4 px-6"> <button class="inline-block w-full py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow">RERA Certificate  <q-icon name="ti-download" /></button></div>
+          <img class="rounded shadow-md m-auto" src="statics/documents/reracertificate.jpg" alt />
+          <div class="w-full py-4 px-6"> <button class="inline-block w-64 m-auto py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow">RERA Certificate  <q-icon name="ti-download" /></button></div>
         </div>
         <div class="md:w-1/3 px-4 mb-8">
-          <img class="rounded shadow-md" src="statics/documents/draftlayoutletterhmda.jpg" alt />
-          <div class="w-full py-4 px-6"> <button class="inline-block w-full py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow">Draft Layout  <q-icon name="ti-download" /></button></div>
+          <img class="rounded shadow-md m-auto" src="statics/documents/draftlayoutletterhmda.jpg" alt />
+          <div class="w-full py-4 px-6"> <button class="inline-block w-64 m-auto py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow">Draft Layout  <q-icon name="ti-download" /></button></div>
         </div>
         <div class="md:w-1/3 px-4 mb-8">
-          <img class="rounded shadow-md" src="statics/documents/layout.jpg" alt />
-          <div class="w-full py-4 px-6"> <button class="inline-block w-full py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow">Layout  <q-icon name="ti-download" /></button></div>
+          <img class="rounded shadow-md  m-auto" src="statics/documents/layout.jpg" alt />
+          <div class="w-full py-4 px-6"> <button class="inline-block w-64 m-auto py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow">Layout  <q-icon name="ti-download" /></button></div>
         </div>
         <div class="md:w-1/3 px-4 mb-8">
-          <img class="rounded shadow-md" src="statics/documents/municipalapproval.jpg" alt />
-          <div class="w-full py-4 px-6"> <button class="inline-block w-full py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow">Municipal Approval  <q-icon name="ti-download" /></button></div>
+          <img class="rounded shadow-md m-auto" src="statics/documents/municipalapproval.jpg" alt />
+          <div class="w-full py-4 px-6"> <button class="inline-block w-64 m-auto py-4 px-8 leading-none text-white bg-indigo-500 hover:bg-indigo-600 rounded shadow">Municipal Approval  <q-icon name="ti-download" /></button></div>
         </div>
       </div>
     </section>
