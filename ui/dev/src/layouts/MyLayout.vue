@@ -2,11 +2,11 @@
   <q-layout view="hHh LpR lFr">
     <div>
       <div class='flex justify-between bg-gray-700 text-white p-2 font-bold'>
-        <div>
-          <q-icon name="ti-email" /> : dhruvasaiinfrapvtltd@gmail.com
-           <q-icon name="ti-headphone-alt ml-2" /> : +91  844 844 0609
+        <div  class="margin-sm">
+          <q-icon name="ti-email" /> : dhruvasaiinfrapvtltd@gmail.com<br class="md:hidden"> 
+          <q-icon name="ti-headphone-alt md:ml-2" /> : +91  844 844 0609
         </div>
-        <div class='flex'>
+        <div class='flex hide-sm'>
           <a href="https://www.facebook.com/suprabhatheightsofficial/" target="_blank"><q-icon name="ti-facebook mr-4" /></a>
           <a href="https://www.facebook.com/suprabhatheightsofficial/" target="_blank"><q-icon name="ti-linkedin mr-4" /></a>
           <a href="https://www.instagram.com/suprabhat_heights/" target="_blank"><q-icon name="ti-instagram mr-4" /></a>
