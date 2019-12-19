@@ -1,9 +1,25 @@
 <template>
   <div>
     <Carousel />
+    <div class="container py-8" style="margin:0 auto;">
+      <div class="row">
+        <div class="col-12"><h2 class="wel-title">Welcome To Dhruva Sai Infra Structures</h2></div>
+        <div class="col-12 py-4 text-justify text-base">We, at Dhruva Sai infra Developers Pvt.Ltd. are a highly reputed entity in the real estate arena of Andhra Pradesh & Telangana.
+          We pride ourselves in the strategic selection of locations and turning investments into valuable assets that offer untapped growth potential.
+          The prime focus of our company is to adhere to quality standards and punctual delivery as per the client’s requirement.
+          Our beliefs are based on the unshakable cornerstones of ethics, values, trust and commitment.
+          We are working tirelessly to launch a number of prestigious projects and use the support of our quality infrastructure network for open plots sale in Bhonagiri. We have a qualified, experienced and dedicated management team, which is supported by a capable and energetic group of employees.</div>
+        <div class="col-12 hmpage_video">
+          <!-- <iframe src="statics/vide.mp4" frameborder="0" allowfullscreen></iframe> -->
+          <video controls="" autoplay="" muted="">
+                            <source src="statics/spbh11.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video.
+                        </video>
+        </div>
+      </div>
+    </div>
 
-    <div class="row my-1 bg-blue-900 text-white">
-      <div class="col-12 col-md-6 p-4">
+    <!--<div class="row my-1 bg-blue-900 text-white"> <div class="col-12 col-md-6 p-4">
         <span class='text-2xl'>DHURVA SAI INFRASTRUCTURE</span>
         <p style="text-align:justify" class='leading-loose mt-4 text-base'>
           Suprabhat Real Estate & Developers need no introduction in Real Estate ﬁeld. From Uppal to Bhongiri, their pioneering projects blossomed into elite communities for over 30 years. Our is as ﬁrm as concrete. As a prestigious and the largest layout in Yadadri Bhuvanagiri, Suprabhat Heights promises to deliver more value per square yard.
@@ -14,16 +30,70 @@
         <video controls autoplay>
           <source src="statics/d.mp4" type="video/mp4" />
         </video>
+    </div></div>-->
+
+    <!--New -->
+
+    <!--Start Why choose Area-->
+    <section class="why-choose-area" style="background-image:url(statics/why-choose-bg.jpg);">
+      <div class="container" style="margin:0 auto;">
+        <div class="row" style="background-image: url(statics/s2.jpg); background-size: cover;">
+          <div class="col-12 col-md-6"></div>
+          <div class="col-12 col-md-6 why-choose-title float-left">
+            <div class="sec-title">
+              <div class="title">
+                <span>Why People Choose</span>Suprabhat Heights
+              </div>
+            </div>
+            <ul>
+              <li>
+                <q-icon class="text-xl theme-clr font-bold mx-3" name="ti-arrow-circle-down" />Spot Registration
+              </li>
+              <li>
+                <q-icon class="text-xl theme-clr font-bold mx-3" name="ti-arrow-circle-down" />Highway Facing venture.
+              </li>
+              <li>
+                <q-icon class="text-xl theme-clr font-bold mx-3" name="ti-arrow-circle-down" />HMDA-Approved 90-Acre Gated Community
+              </li>
+              <li>
+                <q-icon class="text-xl theme-clr font-bold mx-3" name="ti-arrow-circle-down" />1 km Distance From Collectorate Office
+              </li>
+              <li>
+                <q-icon class="text-xl theme-clr font-bold mx-3" name="ti-arrow-circle-down" />30, 40, 60 & 100 ft Wide International BT Roads
+              </li>
+              <li>
+                <q-icon class="text-xl theme-clr font-bold mx-3" name="ti-arrow-circle-down" />Venture Beside Bhongiri Head Quarters
+              </li>
+              <li>
+                <q-icon class="text-xl theme-clr font-bold mx-3" name="ti-arrow-circle-down" />1/2 km Distance Prior Vivera Hotel On Highway
+              </li>
+              <li>
+                <q-icon class="text-xl theme-clr font-bold mx-3" name="ti-arrow-circle-down" />YTDA Ring Road Which Is Closer To Venture
+              </li>
+              <li>
+                <q-icon class="text-xl theme-clr font-bold mx-3" name="ti-arrow-circle-down" />All Conecting Roads To Bhongiri To Be Made 6-Lane
+              </li>
+            </ul>
+            <div class="button">
+              <a class="btn-one" href="contact.html">
+                Get In Touch
+                <q-icon class="text-xl font-bold mx-3" name="ti-arrow-right" />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <!--End Why choose Area-->
+    <!-- end -->
 
     <!-- why suprabhat -->
-    <div class="row my-1">
+    <!-- <div class="row my-1">
       <div
         class="col-12 col-md-6"
         style="background-image: url('statics/s1.jpg'); background-size:cover;"
       >
-        <!-- <img src="statics/s1.jpg" /> -->
+        <! <img src="statics/s1.jpg" /> ->
       </div>
       <div class="col-12 col-md-6">
         <div class="lg:pl-16 lg:mt-0">
@@ -40,7 +110,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
     <!-- Amenities-->
     <q-card class="my-card my-1 bg-black text-white">
       <q-card-section>
@@ -60,6 +130,7 @@
     </q-card>
 
     <!-- invest -->
+    <div class="container py-8" style="margin:0 auto;">
     <div class="invest my-1">
       <div class="row">
         <div
@@ -69,27 +140,32 @@
       <div class="row" style="background: #ebedec">
         <div class="col-12 col-md-6 p-4" v-for="item in yghighlights" v-bind:key="item.name">
           <div class="row">
-            <div class="col-1 "><img :src="item.img" class="sm-py-4" /></div>
+            <div class="col-1">
+              <img :src="item.img" class="sm-py-4" />
+            </div>
             <div class="col-11 px-2 text-lg py-2">{{item.name}}</div>
           </div>
         </div>
         <div class="col-12 col-md-6 p-4">
           <div class="row">
-            <div class="col-1"><img src="statics/home.jpg" class="ygImg" /></div>
-            <div class="col-11 px-2 text-lg">1400-Acre Temple Township on Mallapur Road for Cottages, Kalyana Mandapam, Shopping Complex, Restaurents & Many more.</div>
+            <div class="col-1">
+              <img src="statics/home.jpg" class="ygImg" />
+            </div>
+            <div
+              class="col-11 px-2 text-lg"
+            >1400-Acre Temple Township on Mallapur Road for Cottages, Kalyana Mandapam, Shopping Complex, Restaurents & Many more.</div>
           </div>
         </div>
       </div>
-      <div class="row my-1">
+      <!-- <div class="row my-1">
         <div class="col-12">
           <div class="row">
-        <div
-          class="col-12 p-4 invest-title text-white font-bold text-2xl"
-        >DISTANCE FROM SITE</div>
-      </div>
+            <div class="col-12 p-4 invest-title text-white font-bold text-2xl">DISTANCE FROM SITE</div>
+          </div>
           <img src="statics/distance1.jpg" />
         </div>
-      </div>
+      </div> -->
+    </div>
     </div>
   </div>
 </template>
@@ -114,31 +190,31 @@ export default {
         "YTDA Ring Road Which Is Closer To Venture"
       ],
       yghighlights: [
-         {
+        {
           name: "YTDA Ring Road which is closer to Suprabhat Heights",
           img: "statics/road.jpg"
         },
-         {
+        {
           name: "All Connecting Roads to Bhoingir to be made 6-Lane",
           img: "statics/allroad.jpg"
         },
-         {
+        {
           name: "Proposed MMTS Station at Bhoingir",
           img: "statics/mmts.jpg"
         },
-         {
+        {
           name: "9 Surroundings Hills to be developed as NAVA Narsimha Temples",
           img: "statics/hill.jpg"
         },
-         {
+        {
           name: "Vedic & Sculpture Schools",
           img: "statics/school.jpg"
         },
-         {
+        {
           name: "250-Acre Siddhi Kshetra Dham",
           img: "statics/dham.jpg"
         },
-         {
+        {
           name: "Proposed 200-Acre Garden at Basvapur Reservation",
           img: "statics/garden.jpg"
         }

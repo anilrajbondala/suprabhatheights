@@ -1,7 +1,7 @@
 <template>
   <q-layout view="hHh LpR lFr">
     <div>
-      <div class='flex justify-between bg-orange-500 text-white p-2 font-bold'>
+      <!-- <div class='flex justify-between bg-orange-500 text-white p-2 font-bold'>
         <div  class="margin-sm">
           <q-icon name="ti-email" /> : dhruvasaiinfrapvtltd@gmail.com<br class="md:hidden"> 
           <q-icon name="ti-headphone-alt md:ml-2" /> : +91  844 844 0609
@@ -12,10 +12,10 @@
           <a href="" target="_blank"><q-icon name="ti-instagram mr-4" /></a>
           <a href="" target="_blank"><q-icon name="ti-pinterest mr-4" /></a>
         </div>
-      </div>
+      </div> -->
       <hr/>
       <SideMenu class="sm:block md:block lg:hidden" />
-      <Menu class="hide-sm sm:hidden md:hidden lg:block" />
+      <Menu class="hide-sm sm:hidden md:hidden lg:block header-border hb" style="background-image: url('statics/hd-bg-img.jpg');" />
       <router-view />
       <footer class="flex flex-wrap items-center justify-between p-4 bg-gray-800 text-white">
         <div

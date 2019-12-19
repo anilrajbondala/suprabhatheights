@@ -83,7 +83,118 @@ html{
 .sec-title .title span {
     font-weight: 400;
 }
+.m-item a{
+    padding-bottom: 5px;
+    border-bottom: 4px solid transparent;
+}
 .router-link-exact-active{
     color: #ed8936 !important;
+    font-weight: bold;   
+    border-bottom: 4px solid #ed8936 !important;
+}
+.hb{
+
+    background-repeat: repeat-x;
+    background-position: left top;
+    height: 116px;
+}
+.header-border{
+    border-bottom: 2px solid #ed8936;
+    padding: 15px 10px 0;
+}
+.why-choose-area {
+    position: relative;
+    display: block;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding: 110px 0 110px;
+    z-index: 1;
+}
+.why-choose-title {
+    position: relative;
+    display: block;
+    padding-bottom: 60px;
+    background: #27282cd9;
+}
+.why-choose-title .sec-title {
+    margin: 0;
+    padding-top: 18px;
+    padding-left: 30px;
+    padding-bottom: 28px;
+    position: relative;
+    display: block;
+}
+.why-choose-title .sec-title .title {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.sec-title .title {
+    position: relative;
+    display: block;
+    color: #27282c;
+    font-size: 25px;
+    line-height: 44px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.sec-title .title span {
+    font-weight: 400;
+}
+.why-choose-title ul {
+    position: relative;
+    display: block;
+    /* padding-left: 40px; */
+}
+.why-choose-title ul li {
+    position: relative;
+    display: block;
+    padding-left: 35px;
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 17px;
+}
+
+.why-choose-title .button {
+    position: relative;
+    display: block;
+    margin-top: 52px;
+    z-index: 1;
+}
+
+.why-choose-title .button a {
+    position: relative;
+    display: block;
+    background: #dba703;
+    color: #ffffff;
+    line-height: 70px;
+    padding: 0 40px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.why-choose-title .button a:hover {
+    background: #d51723;
+}
+
+.hmpage_video video {
+    margin: 0 auto;
+    width: auto;
+    height: 410px;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.wel-title{
+    font-size: 30px;
+    line-height: 50px;
+    margin: 10px 0 0px;
+    color: #e41e24;
+    text-transform: uppercase;
+    text-align: center;
     font-weight: bold;
 }
