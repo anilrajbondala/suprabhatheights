@@ -21,6 +21,9 @@
     .xs-100 img{
         margin: 0 auto;
     }
+    .margin-sm{
+        margin-top: 45px;
+    }
  }
 
  .ds_small-logo{
