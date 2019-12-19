@@ -69,7 +69,7 @@
       <div class="row" style="background: #ebedec">
         <div class="col-12 col-md-6 p-4" v-for="item in yghighlights" v-bind:key="item.name">
           <div class="row">
-            <div class="col-1"><img :src="item.img" class="ygImg" /></div>
+            <div class="col-1 "><img :src="item.img" class="sm-py-4" /></div>
             <div class="col-11 px-2 text-lg py-2">{{item.name}}</div>
           </div>
         </div>
