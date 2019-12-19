@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-full h-10 bg-black"></div>
+    <div class="w-full h-10 bg-black page">About US</div>
     <section class="py-12 px-4"><h2 class="text-4xl mb-2 text-center leading-tight font-heading">Dhruva Sai Infra Developers</h2>
     <div>
     <div class="flex flex-wrap items-center -mx-8">

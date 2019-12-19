@@ -2,7 +2,7 @@
   <div>
     <Carousel />
 
-    <div class="row mt-4 bg-blue-900 text-white">
+    <div class="row my-1 bg-blue-900 text-white">
       <div class="col-12 col-md-6 p-4">
         <span class='text-2xl'>DHURVA SAI INFRASTRUCTURE</span>
         <p style="text-align:justify" class='leading-loose mt-4 text-base'>
@@ -18,7 +18,7 @@
     </div>
 
     <!-- why suprabhat -->
-    <div class="row m-4">
+    <div class="row my-1">
       <div
         class="col-12 col-md-6"
         style="background-image: url('statics/s1.jpg');background-position: center;"
@@ -30,14 +30,19 @@
           <h2
             class="text-3xl mb-4 leading-tight font-heading text-white whysup"
           >HIGHLIGHTS OF SUPRABHAT HEIGHTS !</h2>
-          <div class="mb-4" v-for="(item, index) in highlights" v-bind:key="item">
-            <h5 class="text-xl mb-2 font-heading">{{index+1}}. {{item}}</h5>
+          <div class="mb-4 row" v-for="(item) in highlights" v-bind:key="item">
+            <div class="col-1 text-center">
+              <h5 class="text-xl mb-2 font-heading"><q-icon class="text-xl theme-clr" name="ti-hand-point-right" /></h5>
+            </div>
+            <div class="col-11" style="padding-left:-10px">
+              <h5 class="text-xl mb-2 font-heading">{{item}}</h5>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- Amenities-->
-    <q-card class="my-card mt-4 bg-black text-white">
+    <q-card class="my-card my-1 bg-black text-white">
       <q-card-section>
         <section class="py-12 px-4 text-center">
           <h2 class="text-4xl mb-2 leading-tight font-heading">OUR AMENITIES</h2>
@@ -55,22 +60,33 @@
     </q-card>
 
     <!-- invest -->
-    <div class="invest py-4">
+    <div class="invest my-1">
       <div class="row">
         <div
           class="col-12 p-4 invest-title text-white font-bold text-2xl"
         >DEVELOPMENT AROUND YADADRI - BHUVANAGIRI</div>
       </div>
-      <div class="row bg-gray-300">
+      <div class="row" style="background: #ebedec">
         <div class="col-12 col-md-6 p-4" v-for="item in yghighlights" v-bind:key="item.name">
-          <div class="text-lg flex">
-            <img :src="item.img" class="ygImg" />
-            {{item.name}}
+          <div class="row">
+            <div class="col-1"><img :src="item.img" class="ygImg" /></div>
+            <div class="col-11 px-2 text-lg py-2">{{item.name}}</div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 p-4">
+          <div class="row">
+            <div class="col-1"><img src="statics/home.jpg" class="ygImg" /></div>
+            <div class="col-11 px-2 text-lg">1400-Acre Temple Township on Mallapur Road for Cottages, Kalyana Mandapam, Shopping Complex, Restaurents & Many more.</div>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row my-1">
         <div class="col-12">
+          <div class="row">
+        <div
+          class="col-12 p-4 invest-title text-white font-bold text-2xl"
+        >DISTANCE FROM SITE</div>
+      </div>
           <img src="statics/distance1.jpg" />
         </div>
       </div>
@@ -125,10 +141,6 @@ export default {
          {
           name: "Proposed 200-Acre Garden at Basvapur Reservation",
           img: "statics/garden.jpg"
-        },
-         {
-          name: "1400-Acre Temple Township on Mallapur Road for Cottages, Kalyana Mandapam, Shopping Complex, Restaurents & Many more.",
-          img: "statics/home.jpg"
         }
       ],
       ame: [
@@ -171,6 +183,14 @@ export default {
         {
           name: "DESIGNER LANDSCAPING",
           img: "statics/amenities/land.jpg"
+        },
+        {
+          name: "ALL ROUND FENCING",
+          img: "statics/amenities/fence.jpg"
+        },
+        {
+          name: "AVENUE PLANTATION",
+          img: "statics/amenities/avenue1.jpg"
         }
       ]
     };

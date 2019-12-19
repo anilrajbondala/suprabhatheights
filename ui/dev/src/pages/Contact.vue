@@ -1,10 +1,10 @@
 <template>
-  <div class="p-4">
-    <div class="w-full h-10 bg-black"></div>
+  <div class="my-4">
+    <div class="w-full h-10 bg-black page">Contact</div>
     <div class="row">
       <div class="col-12 col-md-4 text-center bg-white rounded p-6">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg py-4">
-          <q-icon class="text-4xl" name="ti-location-pin" />
+        <div class="rounded overflow-hidden shadow-lg py-4">
+          <q-icon class="text-4xl theme-clr" name="ti-location-pin" />
           <div class="px-6 py-4">
             <h3 class="font-bold text-xl mb-2">Visit Our Office</h3>
             <p style="padding-bottom:30px">
@@ -16,8 +16,8 @@
         </div>
       </div>
       <div class="col-12 col-md-4 text-center bg-white rounded p-6">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg py-4">
-          <q-icon class="text-4xl" name="ti-headphone-alt" />
+        <div class="rounded overflow-hidden shadow-lg py-4">
+          <q-icon class="text-4xl theme-clr" name="ti-headphone-alt" />
           <div class="px-6 py-4">
             <h3 class="font-bold text-xl mb-2">Call Us</h3>
             <p style="padding-bottom:50px">
@@ -29,8 +29,8 @@
         </div>
       </div>
       <div class="col-12 col-md-4 text-center bg-white rounded p-6">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg py-4">
-          <q-icon class="text-4xl" name="ti-email" />
+        <div class="rounded overflow-hidden shadow-lg py-4">
+          <q-icon class="text-4xl theme-clr" name="ti-email" />
           <div class="px-6 py-4">
             <h3 class="font-bold text-xl mb-2">Mail Us</h3>
             <p style="padding-bottom :50px">

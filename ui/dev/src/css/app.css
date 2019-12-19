@@ -1,4 +1,16 @@
 /* app global css */
+
+.theme-clr{
+    color: #dba703;
+}
+.page{
+    line-height: 40px;
+    padding-left: 20px;
+    text-align: left;
+    font-size: 22px;
+    color: #dba703 !important;
+    text-transform: uppercase;
+}
 @media (max-width: 640px) { 
     .hide-sm{
         display: none !important;

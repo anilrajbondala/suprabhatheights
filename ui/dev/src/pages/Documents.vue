@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="w-full h-10 bg-black"></div>
+    <div class="w-full h-10 bg-black page">Documents</div>
     <section class="pt-8 px-4">
       <div class="flex flex-wrap -mx-4">
         <div class="md:w-1/3 px-4 mb-8">
