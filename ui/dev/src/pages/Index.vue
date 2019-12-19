@@ -130,7 +130,7 @@
     </q-card>
 
     <!-- invest -->
-    <div class="container py-8" style="margin:0 auto;">
+    <!-- <div class="container py-8" style="margin:0 auto;">
     <div class="invest my-1">
       <div class="row">
         <div
@@ -157,16 +157,16 @@
           </div>
         </div>
       </div>
-      <!-- <div class="row my-1">
+       <div class="row my-1">
         <div class="col-12">
           <div class="row">
             <div class="col-12 p-4 invest-title text-white font-bold text-2xl">DISTANCE FROM SITE</div>
           </div>
           <img src="statics/distance1.jpg" />
         </div>
-      </div> -->
+      </div> 
     </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
