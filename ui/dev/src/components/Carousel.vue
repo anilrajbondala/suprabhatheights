@@ -5,6 +5,7 @@
       animated
       autoplay
       arrows
+      style='height:800px;'
       v-model="slide"
       :fullscreen.sync="fullscreen"
       infinite
