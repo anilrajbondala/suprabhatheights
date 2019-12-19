@@ -12,7 +12,7 @@
       </div>
       <div class="col-12 col-md-6 p-4">
         <video controls autoplay>
-          <source src="statics/spbh11.mp4" type="video/mp4" />
+          <source src="statics/d.mp4" type="video/mp4" />
         </video>
       </div>
     </div>
