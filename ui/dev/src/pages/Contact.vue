@@ -1,6 +1,11 @@
 <template>
-  <div>
-    <div class="w-full h-10 bg-black page">Contact</div>
+  <div class="relative">
+    <div class="w-full page1 gallerybg" style="background-image:url(statics/contact-bg.jpg);">Contact US
+    <div class="h-caption">We Build Your Dreams</div>
+    
+    <span class="page-title-overlay"></span>
+    </div>
+    <div class="container py-4" style="margin:0 auto;">
     <div class="row">
       <div class="col-12 col-md-4 text-center bg-white rounded p-6">
         <div class="rounded overflow-hidden shadow-lg py-4">
@@ -122,6 +127,7 @@
           </iframe>
         </div>
       </div>
+    </div>
     </div>
   </div>
 </template>

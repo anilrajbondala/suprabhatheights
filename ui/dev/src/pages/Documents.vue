@@ -1,6 +1,9 @@
 <template>
   <div>
-    <div class="w-full h-10 bg-black page">Documents</div>
+    <div class="w-full page1 gallerybg" style="background-image:url(statics/document-bg.jpg);">Documents
+    <div class="h-caption">We Build Your Dreams</div>
+    </div>
+    <div class="container" style="margin:0 auto;">
     <section class="pt-8 px-4">
       <div class="flex flex-wrap -mx-4">
         <div class="md:w-1/3 px-4 mb-8">
@@ -29,6 +32,7 @@
         </div>
       </div>
     </section>
+    </div>
   </div>
   <!-- <div class="row">
         <div class="col-12 col-md-4 text-center"><img class="margin-0" style="height: 300px" src="statics/documents/broucher.jpg" ></div>

@@ -20,9 +20,9 @@
           <div class="mr-10 m-item self-end">
             <router-link to='/'>HOME</router-link>
           </div>
-          <div class="mr-10 m-item self-end">
+          <!-- <div class="mr-10 m-item self-end">
             <router-link to='location'>LOCATION</router-link>
-          </div>
+          </div> -->
           <div class="mr-10 m-item self-end">
             <router-link to="gallery">GALLERY</router-link>
           </div>

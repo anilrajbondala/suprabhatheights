@@ -198,3 +198,35 @@ html{
     text-align: center;
     font-weight: bold;
 }
+
+.gallerybg{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: inherit;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.page-title-overlay {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.h-caption{
+    color: #a4a4a4;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.g-img{
+    border: 10px solid #ececec;
+}
